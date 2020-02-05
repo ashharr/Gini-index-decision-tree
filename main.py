@@ -1,5 +1,4 @@
 import pandas as pd
-import math
 
 df = pd.read_csv('data.csv')
 df_ = df.drop(['Class'], axis = 1) 
